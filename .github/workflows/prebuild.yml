@@ -29,5 +29,5 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           imageName: ghcr.io/bketelsen/gnome-go-dev
-          cacheFrom: ghcr.io/example/gnome-go-dev
+          cacheFrom: ghcr.io/bketelsen/gnome-go-dev
           push: always
